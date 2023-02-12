@@ -1,0 +1,25 @@
+.container{
+    background-color: rgb(65, 151, 237);
+
+}
+.img{
+   padding-left: 30%;
+   padding-top: 50px;
+   padding-right: 30%;
+   width: auto;
+}
+#navbaritems{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 50px;
+       
+      }
+  .card{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: 0;
+          margin left: auto;
+          margin right: auto;
+      }
