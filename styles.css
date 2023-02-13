@@ -1,25 +1,35 @@
-.container{
-    background-color: rgb(65, 151, 237);
+.container-fluid {
+  background-color: rgb(65, 151, 237);
+} /* changed from container to container-fluid kufanya ijae hapo juu*/
+/* .img {
+  padding-left: 30%;
+  padding-top: 50px;
+  padding-right: 30%;
+  width: auto;
+} */
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} /* changed to this to avoid the image causing the webpage ikuwe na space towards your right. You can use this when centering anything */
+#navbaritems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+  width: 70%; /* added the width property to enlarge the navbaritems container*/
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0;
+  left: auto;
+  right: auto;
+}
 
-}
-.img{
-   padding-left: 30%;
-   padding-top: 50px;
-   padding-right: 30%;
-   width: auto;
-}
-#navbaritems{ 
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 50px;
-       
-      }
-  .card{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          margin-top: 0;
-          margin left: auto;
-          margin right: auto;
-      }
+/* 
+============Changes Done=================
+I added a container class (card-container) to hold all the cards. Then closed the <div> tag za class "card". Ulikuwa umesahau kuweka closing tags so hiyo ndo ilikuwa inasumbua
+*/
